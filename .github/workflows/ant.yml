@@ -19,6 +19,6 @@ jobs:
     - name: Set up JDK 8
       uses: joschi/setup-jdk@v2
       with:
-        java-version: '8.0.151'
+        java-version: '8'
     - name: Build
       run: java -version
