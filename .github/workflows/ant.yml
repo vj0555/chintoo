@@ -19,5 +19,5 @@ jobs:
     - name: java
       uses: battila7/jdk-via-jabba@v1
       with:
-        jdk: zulu@1.8.151
+        jdk: zulu@1.8.0-151
         
