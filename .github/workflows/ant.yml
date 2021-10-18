@@ -17,7 +17,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: java
-      run: |
-        sudo apt-get update
-        sudo apt-get install oracle-java8-installer
+      uses: zulu@1.8.151
         
